@@ -2,10 +2,10 @@
 from discord.ext import commands
 import asyncio
 
-#initiating the bot
+#setting the prefix
 client = commands.Bot(command_prefix="$")
 
-#implementation
+#getting the bot online
 @client.event
 async def on_ready():
   print('Bot ready')
@@ -29,6 +29,6 @@ async def on_message_recieved(message):
       await message.guild.kick(message.author, reason='spam')
       await asyncio.sleep(1)
       await message.guild.unban(message.author)
-      print('Poof')
+      print('KICKED a MEMBER BECAUSE OF SPAMMING')
     
 client.run("REPLACE_TOKEN")
