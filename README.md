@@ -11,7 +11,7 @@ An anti-spam/anti-raid bot for discord. It detects the number of messages being 
 - Install the required modules!
 - Allow the "Server Member Intent" under the "Privileged Gateway Intents" in the [discord developer panel](https://discord.com/developers/applications). (THIS IS VERY IMPORTANT! The bot will not work propertly without and will not be able to find or kick server members.)
 
-- Place your bot token and adjust the "[antispam.py](https://github.com/MSVFORYOU/Anti-Spam-Bot/anitspam.py)" to your liking.
+- Place your bot token and adjust the "[antispam.py](https://github.com/MSVFORYOU/Anti-Spam-Bot/blob/main/antispam.py)" to your liking.
 
 - Then Run the Bot :)
 
